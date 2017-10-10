@@ -1,0 +1,155 @@
+body {
+	background: #f2f2f2;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	margin-top: 30px;
+}
+
+header .nav {
+    min-height: 80px;
+    overflow: hidden;
+    background: #fff;
+}
+
+header .logo h2,
+header .logo span,
+header .logo p {
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+}
+
+header .logo h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+header .logo .planet {
+    color: #bfbfbf;
+}
+
+header .logo p {
+    color: #777777;
+}
+
+header .menu {
+    padding: 0;
+}
+
+header .menu a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 30px;
+}
+
+header .menu a div span {
+	font-weight: 600;
+}
+
+header .menu .color-1 { background: #95BFF0;}
+header .menu .color-2 { background: #7DEED5 ;}
+header .menu .color-3 { background: #bfbfbf;}
+header .menu .color-1:hover { background: #428DE2;}
+header .menu .color-2:hover { background: #3FC5A6 ;}
+header .menu .color-3:hover { background: #C9B3B3;}
+
+.slider{
+    margin-bottom: 40px;
+}
+
+.slider .col {
+    padding: 0;
+}
+
+.acerca-de {
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.acerca-de .foto {
+    text-align: center;
+}
+
+.acerca-de .foto img {
+    margin-bottom: 30px;
+}
+
+.acerca-de .foto .nombre {
+    color: #545454;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.acerca-de .info .titulo {
+    color: #005385;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.acerca-de .info .resumen {
+    letter-spacing: 1px;
+}
+
+.acerca-de .info .label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #005385;
+    margin-bottom: 10px; 
+}
+
+.acerca-de .info .progress {
+    background: #005385;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+
+.acerca-de .info .progress-bar {
+    height: 25px;
+    background: #3da5e2;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Portafolio */
+.portafolio {
+    background: #fff;
+    border-top: 5px solid #3da5e2;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.portafolio .titulo {
+	padding: 40px 0;
+	text-align: center;
+	color: #3da5e2;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.portafolio .galeria .contenedor-imagen {
+	margin-bottom: 40px;
+	max-height: 180px;
+	overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a {
+	display: inline-block;
+	background: #3da5e2;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+	opacity: .3;
+}
+
+.portafolio .modal-dialog {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
