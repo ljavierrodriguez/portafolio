@@ -206,3 +206,33 @@ header .menu .color-3:hover { background: #C9B3B3;}
 	background: #1ba0ef;
 }
 
+
+/* Reder Sociales */
+.redes-sociales {
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.redes-sociales .fa {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 100px;
+    color: #fff;
+    text-align: center;
+    background: #cbcbcb;
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all .3s ease;
+}
+
+.redes-sociales .twitter { background: #1da1f2;}
+.redes-sociales .facebook { background: #833ab4;}
+.redes-sociales .instagram { background: #3b5998;}
+.redes-sociales .pinterest { background: #3b831d;}
+.redes-sociales .google-plus { background: #5983f2;}
+
+
+
