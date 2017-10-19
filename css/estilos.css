@@ -176,8 +176,7 @@ header .menu .color-3:hover { background: #C9B3B3;}
 }
 
 .formulario input[type='text'],
-.formulario input[type='email'],
-.formulario textarea {
+.formulario input[type='email'] {
     padding: 15px;
     border:none;
     width: 100%;
@@ -186,10 +185,22 @@ header .menu .color-3:hover { background: #C9B3B3;}
 }
 
 .formulario textarea {
+    padding: 15px;
+    border:none;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
     height: 150px;
     min-height: 150px;
     max-height: 250px;
 }
+
+.formulario .infoCaract {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: rgb(170, 163, 163);
+    margin-bottom: 30px;    
+}
+    
 
 .formulario .boton {
 	background: #3da5e2;
@@ -233,6 +244,3 @@ header .menu .color-3:hover { background: #C9B3B3;}
 .redes-sociales .instagram { background: #3b5998;}
 .redes-sociales .pinterest { background: #3b831d;}
 .redes-sociales .google-plus { background: #5983f2;}
-
-
-
